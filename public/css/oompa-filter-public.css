@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ *:focus {outline:none !important}
+
+.oompa-filter-container{margin:75px 0;height:100px;display:flex;text-align:center;}
+.oompa-filter-item, .oompa-filter-item-dynamic{margin:0 15px;}
+
+.oompa-filter-item select, .oompa-filter-item-dynamic select {
+outline:none;
+width:160px;
+height: 32px;
+font-size:16px;
+padding: 5px 10px;
+border: 1px solid #ccc;
+-webkit-appearance: none;
+-moz-appearance: none;
+background: url(https://api.iconify.design/dashicons:arrow-down-alt2.svg);
+background-repeat:no-repeat;
+background-size: 5%;
+background-position: 98% 50%;
+background-color:#f5f5f5;
+}
+
+.oompa-filter-item select:hover,.oompa-filter-item-dynamic select:hover {
+cursor: pointer;
+}
+
+/* CAUTION: IE hackery ahead */
+.oompa-filter-item select::-ms-expand, .oompa-filter-item-dynamic select::-ms-expand {
+display: none; /* remove default arrow on ie10 and ie11 */
+}
+
+
+.oompa-filter-products-list {width:100%;}
+.oompa-filter-products-list .product{width:33.33%; height:100%;float:left;}
+.oompa-filter-products-list .product .product-inner{margin:50px;border:1px solid #d9dada;}
+.oompa-filter-products-list .product img{width:100%;height:100%;height:400px;object-fit:contain;transition: all .3s;}
+.oompa-filter-products-list .product img:hover{cursor:pointer;opacity:0.7;}
+.oompa-filter-products-list-title-container{background-color:#fff;text-align:center;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;align-items: center;justify-content: center;height:200px;}
+.oompa-filter-products-list .product h3{font-family: 'AvenirLTStd-Medium';margin:15px 0;padding:0 25px;text-transform: uppercase;font-size:26px;line-height:32px;}
+.oompa-filter-products-list .product p {font-family: 'AvenirLTStd-Light';font-size:16px; color:#877868!important;letter-spacing:1px;}
+.oompa-filter-products-list .product h3.price{font-family: 'AvenirLTStd-Light';padding:25px;display:inline-block;}
+.oompa-filter-products-list .product .product-actions{display:inline-block;float:right;padding:25px;}
+.oompa-filter-products-list .product .product-actions a{margin: 0 7px;color:#877868;height: 37px;width: 37px;background-color: #fff;border-radius: 50%;border: 1px solid #877868;display: inline-block;transition: all .3s;font-size: 18px;padding-top: 11px;padding-left: 14px;}
+.oompa-filter-products-list .product .product-actions a:first-child{margin: 0 7px;color:#877868;height: 37px;width: 35px;background-color: #fff;border-radius: 50%;border: 1px solid #877868;display: inline-block;transition: all .3s;font-size: 18px;padding-top: 11px;padding-left: 16px;}
+.oompa-filter-products-list .product .product-actions a:first-child i{margin-left:-3px;}
+.oompa-filter-products-list .product .product-actions a:hover{color:#fff;background-color: #877868;}
+.oompa-filter-products-list .product .product-actions i{font-size:24px;}
+
+.oompa-filter-pagination{width:100%;display:inline-block;margin:75px 0; text-align: center;}
+.oompa-filter-pagination .page-numbers{border:1px solid gray; background-color:#f5f5f5;padding:12px;margin:5px;}
+.oompa-filter-pagination .page-numbers.current{border:1px solid gray; background-color:#c9c9c9;padding:12px;margin:5px;}
+.oompa-filter-pagination a{text-decoration: none;}
+.oompa-filter-pagination a:hover{text-decoration: none;color:#000;}

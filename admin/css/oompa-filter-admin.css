@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Buttons */
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+color: white;
+border-radius: 4px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+background: rgb(28, 184, 65); /* this is a green */
+font-size:16px;
+height:32px;
+font-weight: 700;
+}
+
+.button-error {
+background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+background: rgb(66, 184, 221); /* this is a light blue */
+}
+button:hover{cursor: pointer!important;}
+
+
+/* Table */
+table, th, td {
+border: 1px solid #ccc;
+border-collapse: collapse;
+text-align: left;
+padding:7px;
+}
+
+/* Table to display inserted taxonomies from db*/
+#oompa-filter-taxonomy-table{width:360px;}
+#oompa-filter-taxonomy-table tr:hover{background-color:#fff;cursor:cell;}
+
+
+/* Form to insert taxonomies into  db*/
+#oompa-filter-main-form .new-taxonomy-btn-container{margin: 25px 0;}
+#oompa-filter-main-form .new-taxonomy-row-container{width:360px;display:flex;margin:12px 0;}
+#oompa-filter-main-form .new-taxonomy-row-container .oompa-filter-taxonomy-name-input{width:40%;float:left;}
+#oompa-filter-main-form .new-taxonomy-row-container .oompa-filter-taxonomy-label-input{width:40%;float:left;margin:0 5px;}
+#oompa-filter-main-form .new-taxonomy-row-container .removeRow{width:20%;float:left;}
