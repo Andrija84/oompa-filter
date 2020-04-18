@@ -2,7 +2,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://example.com
+ * @link       https://oompa.de
  * @since      1.0.0
  *
  * @package    oompa_filter
@@ -17,7 +17,7 @@
  *
  * @package    oompa_filter
  * @subpackage oompa_filter/admin
- * @author     Andrija Nikolic <info@oompa.de>
+ * @author     Andrija Nikolic <andrija.nikolic@oompa.de>
  */
 
 class OOMPA_Taxonomy {

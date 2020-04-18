@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://example.com
+ * @link       https://oompa.de
  * @since      1.0.0
  *
  * @package    oompa_filter
@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    oompa_filter
  * @subpackage oompa_filter/includes
- * @author     Andrija Nikolic <info@oompa.de>
+ * @author     Andrija Nikolic <andrija.nikolic@oompa.de>
  */
 class OOMPA_Filter {
 

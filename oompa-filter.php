@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://example.com
+ * @link              https://oompa.de
  * @since             1.0.0
  * @package           oompa_filter
  *
  * @wordpress-plugin
  * Plugin Name:       OOMPA Product Ajax Filter
- * Plugin URI:        http://example.com/oompa-filter-uri/
+ * Plugin URI:        https://oompa.de/oompa-filter-uri/
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
  * Author:            Your Name or Your Company
- * Author URI:        http://example.com/
+ * Author URI:        https://oompa.de/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       oompa-filter

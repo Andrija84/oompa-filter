@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://example.com
+ * @link       https://oompa.de
  * @since      1.0.0
  *
  * @package    oompa_filter
@@ -19,7 +19,7 @@
  *
  * @package    oompa_filter
  * @subpackage oompa_filter/includes
- * @author     Andrija Nikolic <info@oompa.de>
+ * @author     Andrija Nikolic <andrija.nikolic@oompa.de>
  */
 class OOMPA_Filter_Loader {
 
